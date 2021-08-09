@@ -14,7 +14,7 @@ steps:
     Contents: '**'
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
 
-- task: AzureResourceManagerTemplateDeployment@3
+
   inputs:
     deploymentScope: 'Resource Group'
     subscriptionId: '<your-subscription-id>'
