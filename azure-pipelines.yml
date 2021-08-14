@@ -17,7 +17,7 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    subscriptionId: '<your-subscription-id>'
+    subscriptionId: 'd6b61788-279a-4247-893f-c5a213b81a30'
     action: 'Create Or Update Resource Group'
   
     location: '<your-closest-location>'
