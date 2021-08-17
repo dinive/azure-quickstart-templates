@@ -17,8 +17,8 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'azureSubscription'
-    subscriptionId: 'd6b61788-279a-4247-893f-c5a213b81a30'
+    azureResourceManagerConnection: 'Concierge Subscription'
+    subscriptionId: '3ec6e182-44d1-4344-b855-5aa01ff748e6'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'ARMPipelinesLAMP-rg'
     location: 'West US'
