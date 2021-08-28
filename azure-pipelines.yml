@@ -20,7 +20,7 @@ steps:
     azureResourceManagerConnection: 'Concierge Subscription'
     subscriptionId: '3ec6e182-44d1-4344-b855-5aa01ff748e6'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'ARMPipelinesLAMP-rg'
+    resourceGroupName: 'learn-a00c476d-ae72-4079-b7c3-65c743fef8d8'
     location: 'West US'
     templateLocation: 'Linked artifact'
     csmFile: '$(Build.ArtifactStagingDirectory)/azuredeploy.json'
